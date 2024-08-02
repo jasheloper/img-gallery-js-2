@@ -1,12 +1,21 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
   text-align: center;
+  color: white;
+  font-size: 3.7em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example shadow */
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
 
 body {
   width: 740px;
   margin: 0 auto;
   background-color: antiquewhite;
+  background: linear-gradient(135deg, #a44b9c, #f2c94c);
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .full-img {
@@ -18,6 +27,7 @@ body {
 
 .full-img img {
  border-radius: 8px;
+ box-shadow: 1px 1px 3px 1px #29262f;
 }
 
 .overlay {
@@ -47,7 +57,12 @@ button {
   width: 15%;
   float: left;
   cursor: pointer;
-  margin: 12px;
-  border: 2px solid black;
+  margin: 9px;
+  border: 5px solid white;
   border-radius: 10px;
+}
+
+.thumb-bar img:hover {
+  transform: scale(1.5); /* Adjust the scale value as needed */
+  transition: transform 0.3s; /* Smooth transition effect */
 }
