@@ -33,6 +33,8 @@ for (let i = 0; i < imgArr.length; i++) {
 // Alternatively, you can add one event listener to the thumb bar.
 // event delegation vs event listener on every single image in a loop -> Reduced Memory Usage, Simplified Code
 
+// In summary, event delegation allows for more efficient event handling by using a single listener on a parent element to manage events for its child elements, taking advantage of event bubbling in the DOM. 
+
 thumbBar.addEventListener("click", (event) => {
     displayedImage.setAttribute('src', event.target.getAttribute('src'));
     displayedImage.setAttribute('alt', event.target.getAttribute('alt'));
