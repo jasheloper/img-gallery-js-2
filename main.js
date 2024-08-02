@@ -31,6 +31,7 @@ for (let i = 0; i < imgArr.length; i++) {
 
 
 // Alternatively, you can add one event listener to the thumb bar.
+// event delegation vs event listener on every single image in a loop -> Reduced Memory Usage, Simplified Code
 
 thumbBar.addEventListener("click", (event) => {
     displayedImage.setAttribute('src', event.target.getAttribute('src'));
