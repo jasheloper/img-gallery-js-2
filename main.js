@@ -23,6 +23,10 @@ for (let i = 0; i < imgArr.length; i++) {
     newImage.setAttribute('src', `images/${imgArr[i]}`);
     newImage.setAttribute('alt', imgAlts[i].altText);
     thumbBar.appendChild(newImage);
+    // newImage.addEventListener("click", () => {
+    //     displayedImage.setAttribute('src', newImage.getAttribute('src'));
+    //     displayedImage.setAttribute('alt', newImage.getAttribute('alt'));
+    // });
 }
 
 
