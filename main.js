@@ -29,7 +29,6 @@ for (let i = 0; i < imgArr.length; i++) {
     // });
 }
 
-
 // Alternatively, you can add one event listener to the thumb bar.
 // event delegation vs event listener on every single image in a loop -> Reduced Memory Usage, Simplified Code
 
@@ -39,7 +38,6 @@ thumbBar.addEventListener("click", (event) => {
     displayedImage.setAttribute('src', event.target.getAttribute('src'));
     displayedImage.setAttribute('alt', event.target.getAttribute('alt'));
 });
-
 
 /* Wiring up the Darken/Lighten button */
 btn.addEventListener("click", () => {
@@ -53,4 +51,3 @@ btn.addEventListener("click", () => {
         overlay.style.backgroundColor = "rgb(0 0 0 / 0%)";
     }
 });
-
