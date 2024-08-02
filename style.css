@@ -1,21 +1,11 @@
 h1 {
+  font-family: helvetica, arial, sans-serif;
   text-align: center;
-  color: white;
-  font-size: 3.7em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example shadow */
-  font-family: "Big Shoulders Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
 }
 
 body {
-  width: 740px;
+  width: 640px;
   margin: 0 auto;
-  background-color: antiquewhite;
-  background: linear-gradient(135deg, #a44b9c, #f2c94c);
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .full-img {
@@ -25,19 +15,13 @@ body {
   height: 480px;
 }
 
-.full-img img {
- border-radius: 8px;
- box-shadow: 1px 1px 3px 1px #29262f;
-}
-
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 699px;
-  height: 467px;
+  width: 640px;
+  height: 480px;
   background-color: rgba(0,0,0,0);
-  border-radius: 8px;
 }
 
 button {
@@ -49,20 +33,11 @@ button {
   cursor: pointer;
   top: 2px;
   left: 2px;
-  margin: 15px;
 }
 
 .thumb-bar img {
   display: block;
-  width: 15%;
+  width: 20%;
   float: left;
   cursor: pointer;
-  margin: 9px;
-  border: 5px solid white;
-  border-radius: 10px;
-}
-
-.thumb-bar img:hover {
-  transform: scale(1.5); /* Adjust the scale value as needed */
-  transition: transform 0.3s; /* Smooth transition effect */
 }
