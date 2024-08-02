@@ -4,8 +4,9 @@ h1 {
 }
 
 body {
-  width: 640px;
+  width: 740px;
   margin: 0 auto;
+  background-color: antiquewhite;
 }
 
 .full-img {
@@ -15,13 +16,18 @@ body {
   height: 480px;
 }
 
+.full-img img {
+ border-radius: 8px;
+}
+
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 640px;
-  height: 480px;
+  width: 699px;
+  height: 467px;
   background-color: rgba(0,0,0,0);
+  border-radius: 8px;
 }
 
 button {
@@ -33,11 +39,15 @@ button {
   cursor: pointer;
   top: 2px;
   left: 2px;
+  margin: 15px;
 }
 
 .thumb-bar img {
   display: block;
-  width: 20%;
+  width: 15%;
   float: left;
   cursor: pointer;
+  margin: 12px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
