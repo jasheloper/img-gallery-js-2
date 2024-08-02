@@ -23,11 +23,15 @@ for (let i = 0; i < imgArr.length; i++) {
     newImage.setAttribute('src', `images/${imgArr[i]}`);
     newImage.setAttribute('alt', imgAlts[i].altText);
     thumbBar.appendChild(newImage);
-    newImage.addEventListener("click", () => {
-        displayedImage.setAttribute('src', newImage.getAttribute('src'));
-        displayedImage.setAttribute('alt', newImage.getAttribute('alt'));
-    });
 }
+
+
+// Alternatively, you can add one event listener to the thumb bar.
+
+thumbBar.addEventListener("click", (event) => {
+    displayedImage.setAttribute('src', event.target.getAttribute('src'));
+    displayedImage.setAttribute('alt', event.target.getAttribute('alt'));
+});
 
 
 /* Wiring up the Darken/Lighten button */
@@ -42,3 +46,4 @@ btn.addEventListener("click", () => {
         overlay.style.backgroundColor = "rgb(0 0 0 / 0%)";
     }
 });
+
