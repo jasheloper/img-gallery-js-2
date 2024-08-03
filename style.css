@@ -1,4 +1,8 @@
-/* not entirely optimized for mobile. 
+/* 
+update: optimized a little bit more
+for mobile just for fun.
+-------------------------------
+not entirely optimized for mobile. 
 just slight tweaking to make it look 
 somewhat better there. 
 this practice project focuses on getting 
@@ -18,7 +22,7 @@ h1 {
 }
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: 2.8em;
+    font-size: 2.5em;
   }
 }
 
@@ -85,7 +89,7 @@ button {
 }
 @media screen and (max-width: 700px) {
   .thumb-bar img {
-    margin: 7.5px;
+    margin: 3px;
   }
 }
 
