@@ -28,6 +28,7 @@ body {
   background: linear-gradient(135deg, #a44b9c, #f2c94c);
   background-repeat: no-repeat;
   min-height: 100vh;
+  padding: 1em;
 }
 @media screen and (max-width: 700px) {
   body {
@@ -84,7 +85,7 @@ button {
 }
 @media screen and (max-width: 700px) {
   .thumb-bar img {
-    margin: 9px;
+    margin: 7.5px;
   }
 }
 
