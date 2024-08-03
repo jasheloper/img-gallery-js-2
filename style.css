@@ -1,6 +1,8 @@
+/* not entirely optimized for mobile. just slight tweaking to make it look somewhat better there. this practice project focuses on getting javascript functionality working, so please view in desktop. */
+
 h1 {
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example shadow */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: helvetica, arial, sans-serif;
   text-align: center;
   font-size: 3.6em;
@@ -31,12 +33,10 @@ body {
 .full-img {
   position: relative;
   display: block;
-  width: 100%; /* Change this to 100% */
-  max-width: 640px; /* Keep max-width to limit the size */
-  height: auto; /* Adjust height to maintain aspect ratio */
+  width: 100%; 
+  max-width: 640px; 
+  height: auto;
 }
-
-
 
 .full-img img {
   max-width: 100%;
@@ -48,12 +48,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* Change this to 100% */
-  height: 100%; /* Change this to 100% */
+  width: 100%; 
+  height: 100%;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 8px;
 }
-
 
 button {
   border: 0;
