@@ -6,7 +6,7 @@ Demo @ https://jasheloper.github.io/img-gallery-js-2/
 
 ![Image Gallery Preview](project-preview.png)
 
-**not entirely optimized for mobile, simple JS practice exercise only. please view in desktop.*
+**only somewhat optimized for mobile, simple JS practice exercise only. please view in desktop.*
 
 <br>
 
