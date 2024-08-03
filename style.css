@@ -31,9 +31,11 @@ body {
 .full-img {
   position: relative;
   display: block;
-  max-width: 640px;
-  max-height: 480px;
+  width: 100%; /* Change this to 100% */
+  max-width: 640px; /* Keep max-width to limit the size */
+  height: auto; /* Adjust height to maintain aspect ratio */
 }
+
 
 
 .full-img img {
@@ -46,11 +48,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 642px;
-  height: 430px;
-  background-color: rgba(0,0,0,0);
+  width: 100%; /* Change this to 100% */
+  height: 100%; /* Change this to 100% */
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 8px;
 }
+
 
 button {
   border: 0;
