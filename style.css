@@ -72,8 +72,14 @@ button {
   cursor: pointer;
   border: 3px solid white;
   border-radius: 10px;
-  margin: 10px;
+  margin: 13px;
 }
+@media screen and (max-width: 700px) {
+  .thumb-bar img {
+    margin: 6px;
+  }
+}
+
 
 .thumb-bar img:hover {
   transform: scale(1.8);
