@@ -9,11 +9,11 @@ const imgArr = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg"];
 
 /* Declaring the alternative text for each image file */
 const imgAlts = [
-    {altText: "Mountain Trail Path"},
-    {altText: "Mountain Peak and Trail"},
-    {altText: "Orange Flowers"},
-    {altText: "Desert Mountain View"},
-    {altText: "Sunrise in the Desert"}
+    {altText: "Photo 1 - Mountain Trail Path"},
+    {altText: "Photo 2 - Mountain Peak and Trail"},
+    {altText: "Photo 3 - Orange Flowers"},
+    {altText: "Photo 4 - Desert Mountain View"},
+    {altText: "Photo 5 - Sunrise in the Desert"}
   ];
 
 /* Looping through images */
