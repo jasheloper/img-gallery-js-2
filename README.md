@@ -1,4 +1,4 @@
-# JS Image Gallery Project
+# JavaScript Image Gallery
 
 To test comprehension of JavaScript loops, functions, conditionals, and events.
 
