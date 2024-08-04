@@ -4,9 +4,9 @@ To test comprehension of JavaScript loops, functions, conditionals, and events.
 
 Demo @ https://jasheloper.github.io/img-gallery-js-2/
 
-![Image Gallery Preview](project-preview.png)
-
 **only somewhat optimized for mobile, simple JS practice exercise only. please view in desktop.*
+
+![Image Gallery Preview](project-preview.png)
 
 <br>
 
