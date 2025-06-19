@@ -6,6 +6,8 @@
 
 **Link:** [Click to view demo](https://jasheloper.github.io/img-gallery-js-2/)
 
+[![Color Tile Playground preview](/images/image-gallery-preview.png)](https://jasheloper.github.io/img-gallery-js-2/)
+
 
 ## Key Features
 - Each thumbnail can be clicked to display as the main image.
