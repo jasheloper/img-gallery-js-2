@@ -1,21 +1,13 @@
 # JavaScript Image Gallery
 
-To test comprehension of JavaScript loops, functions, conditionals, and events.
+**About:** An interactive image gallery designed with a thumbnail-based image switcher.
 
-Demo @ https://jasheloper.github.io/img-gallery-js-2/ - *only somewhat optimized for mobile, simple JS practice exercise only. please view in desktop.*
+**Technologies:** JavaScript, HTML, CSS
 
-![Image Gallery Preview](project-preview.png)
-
-<br>
-
-**Additional edits beyond requirements:**
-- Replaced project images with my own
-- Made tweaks to the original CSS
-
-<br>
+**Link:** [Click to view demo](https://jasheloper.github.io/img-gallery-js-2/)
 
 
-
-## Link to Requirements:
-
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery 
+## Key Features
+- Each thumbnail can be clicked to display as the main image.
+- A toggle button that adds or removes a semi-transparent overlay on the image.
+- A gallery of images captured by Jashele Tillman for viewing pleasure.
