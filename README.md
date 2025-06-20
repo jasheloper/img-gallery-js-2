@@ -1,12 +1,5 @@
 # JavaScript Image Gallery
 
-### 🔗 Link
-[Click to view demo](https://jasheloper.github.io/img-gallery-js-2/)
-<br>
-
-[![Color Tile Playground preview](/images/image-gallery.png)](https://jasheloper.github.io/img-gallery-js-2/)
-
-
 ### 💬 About
 An interactive image gallery designed with a thumbnail-based image switcher.
 <br><br>
@@ -22,3 +15,13 @@ An interactive image gallery designed with a thumbnail-based image switcher.
 
 ### ⚙️ Technologies
 HTML, CSS, JavaScript
+<br><br>
+
+
+
+### 🔗 Link
+[Click to view demo](https://jasheloper.github.io/img-gallery-js-2/)
+<br><br>
+
+
+[![Color Tile Playground preview](/images/image-gallery.png)](https://jasheloper.github.io/img-gallery-js-2/)
