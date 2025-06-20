@@ -14,7 +14,7 @@ An interactive image gallery designed with a thumbnail-based image switcher.
 
 
 ### ⚙️ Technologies
-JavaScript, HTML, CSS
+HTML, CSS, JavaScript
 <br><br>
 
 
