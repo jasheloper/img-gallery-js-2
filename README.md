@@ -1,4 +1,4 @@
-# JavaScript Image Gallery
+# Image Gallery
 
 ### 💬 About
 An interactive image gallery designed with a thumbnail-based image switcher.
